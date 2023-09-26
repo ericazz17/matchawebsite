@@ -70,19 +70,19 @@ h3 {
     height: 30px;
     text-align: center;
 }
-.button {
+
+.menu {
     color: gray;
     font-family: 'Roboto', sans-serif;
     padding: 10px;
     margin-right: 20px;
-
 }
 
 a {
     text-decoration: none;
 }
 
-.button:hover {
+.menu:hover {
     color: white;
     border-color: rgb(61, 35, 13);
     border-width: 1px;
@@ -90,7 +90,7 @@ a {
     border-radius: 5px;
 }
 
-.button:active {
+.menu:active {
     color: white;
     border-color: rgb(61, 35, 13);
     border-width: 1px;
