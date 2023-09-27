@@ -5,6 +5,7 @@ body {
     margin-right: 0px;
     margin-top: 0px;
     padding: 0px;
+    color: white;
 }
 
 .header {
@@ -69,7 +70,7 @@ h3 {
     height: 30px;
     text-align: center;
 }
-.button {
+.menu {
     color: gray;
     font-family: 'Roboto', sans-serif;
     padding: 10px;
@@ -80,7 +81,7 @@ h3 {
 a {
     text-decoration: none;
 }
-.button:hover {
+.menu:hover {
     color: white;
     border-color: rgb(61, 35, 13);
     border-width: 1px;
@@ -88,7 +89,7 @@ a {
     border-radius: 5px;
 }
 
-.button:active {
+.menu:active {
     color: white;
     border-color: rgb(61, 35, 13);
     border-width: 1px;
@@ -131,6 +132,7 @@ footer {
     font-family: 'Roboto', sans-serif;
     padding-top: 3%;
     font-weight: 100;
+    background-color: #496039;
 }
 
 .toph2 {
@@ -157,6 +159,7 @@ footer {
 
   .checked {
     color: orange;
+    white-space: nowrap;
   }
 
   /* table styling */
@@ -170,7 +173,8 @@ footer {
   .info-table {
     border-collapse: collapse;
     width: 80%;
-    margin-top: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
   }
   
   .info-table th {
@@ -179,14 +183,14 @@ footer {
     height: 18px;
     padding-top: 5px;
     padding-bottom: 5px;
+    font-family: 'Roboto', sans-serif;
 }
 
-.r1c3 {
-  text-align: left;
-}
 
-  .r1c3 {
+  .col3-text {
     text-align: left;
+    font-size: 1vw;
+    font-family: 'Inter', sans-serif;
 }
 
   .info-table td {
@@ -253,22 +257,18 @@ footer {
     align-items:center;
 }
 
-.buy-now-button .inside-buy-now-button span {
-    margin-left: 10px;
-}
-
-.amazon-text {
-    color: black !important;
-}
-
-
 .buy-now-button:hover {
     opacity:0.7;
 }
 
-.inside-buy-now-button span {
-    color: black !important;
-  }
+a.buy-now-button .inside-buy-now-button span {
+  margin-left: 10px;
+  color: black !important;
+}
+
+a.buy-now-button .inside-buy-now-button:hover {
+  cursor: pointer;
+}
 
 .amazon-icon {
     padding-top: 3px;
@@ -280,7 +280,22 @@ footer {
     height: auto;
 }
 
+.chawan-image {
+  width: 120px;
+}
 
+.chashaku-image {
+  width: 120px;
+  padding-top: 15px;
+}
+
+.aeroccino-image {
+  width: 120px;
+}
+
+.kettle-image {
+  width: 170px;
+}
 
 
 
